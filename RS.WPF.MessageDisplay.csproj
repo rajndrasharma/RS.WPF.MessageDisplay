@@ -1,8 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
+    <PackageId>RS.WPF.MessageDisplay</PackageId>
     <TargetFramework>net7.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
+    <Version>1.0.0</Version>
+    <Authors>Rajendra Prasad Sharma</Authors>
+    <PackageTags>WPF Message Display</PackageTags>
+    <Description>
+      This library contains a status bar item wich can be used to display various messages on error, on sucess or animated message.
+    </Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
-
 </Project>
