@@ -1,0 +1,16 @@
+<UserControl x:Class="RS.WPF.MessageDisplay.MessageDisplayControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             x:Name="DisplayMessageControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="700">
+    <Grid>
+        <StatusBarItem Name="StatusMessage" FontFamily="Segoe UI" 
+                       FontSize="11"
+                       FontWeight="Bold"
+                       Foreground="Maroon"
+                       Padding="10" PreviewMouseDoubleClick="StatusMessage_PreviewMouseDoubleClick"></StatusBarItem>
+    </Grid>
+</UserControl>
